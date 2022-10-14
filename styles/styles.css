@@ -1,0 +1,25 @@
+header {
+    background-image: url(/assets/img/pexels-sebastian-palomino-1955134.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+header::before {
+    content: "";
+    background: linear-gradient(to bottom, rgba(177, 153, 110, 0.164) 50%, rgb(177, 153, 110) 90%); /* css matic */
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+}
+
+section {
+    background-color: rgb(177, 153, 110);
+    width: 100vw;
+    height: 100vh;
+}
+
+
