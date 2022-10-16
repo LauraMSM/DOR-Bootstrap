@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Franchise';
+    src: url(/assets/fonts/Franchise.ttf);
+}
+@font-face {
+    font-family:'YorkWhiteLetter';
+    src: url(/assets/fonts/yorkwhiteletter.otf);
+}
+@font-face {
+    font-family: 'Libel-Suit-Rg';
+    src: url(/assets/fonts/libel-suit-rg.otf);
+}
+
+:root {
+    --title-font: 'Franchise';
+    --subtitle-font: 'YorkWhiteLetter';
+    --body-font: 'Libel-Suit-Rg';
+
+    --main-color: #EDEDED;
+    --nd-color: #444444;
+    --rd-color: #DA0037;
+    --th-color: #171717;
+}
+
+html {
+    font-size: 62.5%;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box; /* Para safari */
+}
+body { 
+    background-color: var(--main-color);
+    color: var(--th-color);
+    overflow-x: hidden;
+}
+h1 {
+    color: var(--rd-color);
+    font-family: var(--title-font);
+    font-size: 9rem;
+    text-align: center;
+}
+h2, h3, h4 {
+    font-family: var(--subtitle-font);
+}
+p, a, span, li {
+    font-family: var(--body-font);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+img {
+    display: block;
+}
