@@ -20,6 +20,8 @@
     --nd-color: #444444;
     --rd-color: #DA0037;
     --th-color: #171717;
+
+    --bg-color: rgb(212, 185, 126);
 }
 
 html {
@@ -56,4 +58,8 @@ ul {
 }
 img {
     display: block;
+}
+
+.hexagono {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
 }
